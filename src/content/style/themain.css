@@ -1,0 +1,30 @@
+.themain {
+    position: relative;
+}
+
+.btns {
+    position: absolute;
+    top: 184px;
+    right: 250px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    transform: rotate(-90deg);
+}
+.btn {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.line {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}

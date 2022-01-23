@@ -1,0 +1,36 @@
+.portfolio {
+    padding: 100px 0 100px;
+    background: #F6F6F6;
+}
+
+.portfolio__title {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 50px;
+}
+
+.portfolio__img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.portfolio__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.portfolio__link {
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    border-bottom: 0.5px solid #070707;
+    padding-bottom: 5px;
+}
