@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './style.css';
 import './content/style/media.css';
 import TheMain from "./TheMain";
 

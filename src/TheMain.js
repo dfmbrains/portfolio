@@ -6,6 +6,8 @@ import './content/style/themain.css';
 const TheMain = () => {
 
     const [language, setLanguage] = useState('eng');
+    const [mode, setMode] = useState('light');
+
     const engHandler = () => {
         return setLanguage('eng')
     };

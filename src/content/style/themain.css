@@ -9,6 +9,7 @@
     align-items: center;
     column-gap: 5px;
     transform: rotate(-90deg);
+	 z-index: 10;
 }
 .btn {
     font-family: Gilroy, sans-serif;
