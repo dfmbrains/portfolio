@@ -1,11 +1,10 @@
 .themain {
-    position: relative;
 }
 
 .btns {
     position: absolute;
     top: 184px;
-    right: 250px;
+    right: 16%;
     display: flex;
     align-items: center;
     column-gap: 5px;

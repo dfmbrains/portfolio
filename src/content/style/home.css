@@ -1,5 +1,6 @@
 .home {
     padding: 40px 0 100px;
+    position: relative;
 }
 
 .home__row {
