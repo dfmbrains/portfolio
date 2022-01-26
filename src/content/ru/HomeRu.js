@@ -4,7 +4,7 @@ import '../style/home.css';
 
 const HomeRu = () => {
     return (
-        <section className="home">
+        <section id="home" className="home">
             <div className="container">
                 <div className="home__row">
                     <div className="home__card">

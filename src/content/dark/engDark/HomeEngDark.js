@@ -4,7 +4,7 @@ import '../styleDark/homeDark.css';
 
 const Home = () => {
     return (
-        <section className="homedark">
+        <section id="home" className="homedark">
             <div className="container">
                 <div className="homedark__row">
                     <div className="homedark__card">

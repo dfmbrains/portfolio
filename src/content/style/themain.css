@@ -1,7 +1,7 @@
 .language__btns {
     border-radius: 5px;
     width: 140px;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     display: flex;
@@ -16,7 +16,7 @@
     justify-content: center;
     width: 140px;
     background: #3a3456;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
@@ -40,4 +40,44 @@
     font-size: 16px;
     line-height: 20px;
     color: #828282;
+}
+.btn_up {
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+    padding: 6.875px 10px;
+    border: 0.1px solid white;
+    right: 5%;
+    bottom: 5%;
+    background: transparent;
+}
+.btn_up-dark {
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+    padding: 6.875px 10px;
+    right: 5%;
+    bottom: 5%;
+    background: transparent;
+}
+
+.btn_up__icon {
+    font-size: 50px;
+    color: #828282;
+    transition: 0.2s;
+}
+.btn_up__icon:hover {
+    font-size: 50px;
+    color: black;
+    transition: 0.2s;
+}
+
+.btn_up__icon-dark {
+    font-size: 50px;
+    color: #665c93;
+    transition: 0.2s;
+}
+.btn_up__icon-dark:hover {
+    color: #F6F6F6;
+    transition: 0.2s;
 }

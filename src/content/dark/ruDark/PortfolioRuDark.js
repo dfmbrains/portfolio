@@ -10,7 +10,7 @@ import Romsem from '../../../assets/romsem.png';
 
 const PortfolioRuDark = () => {
     return (
-        <section className="portfoliodark">
+        <section id="portfolio" className="portfoliodark">
             <div className="container">
                 <h2 className="portfoliodark__title">Портфолио</h2>
                 <div className="portfoliodark__card">

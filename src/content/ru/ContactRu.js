@@ -13,7 +13,7 @@ const ContactRu = () => {
     };
 
     return (
-        <section className="contact">
+        <section id="contact" className="contact">
             <div className="container">
                 <h1 className="contact__title">Контакты</h1>
                 <p className="contact__subtitle">Хотите узнать больше?<br/>Пишите!</p>

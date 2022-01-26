@@ -3,23 +3,23 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <header className="header">
+        <header id="header" className="header">
            <div className="container">
                <ul className="header__menu">
                    <li className="header__list">
-                       <a href="" className="header__link">Home</a>
+                       <a href="#home" className="header__link">Home</a>
                    </li>
                    <li className="header__list">
-                       <a href="" className="header__link">About me</a>
+                       <a href="#about" className="header__link">About me</a>
                    </li>
                    <li className="header__list">
-                       <a href="" className="header__link">Skills</a>
+                       <a href="#skills" className="header__link">Skills</a>
                    </li>
                    <li className="header__list">
-                       <a href="" className="header__link">Portfolio</a>
+                       <a href="#portfolio" className="header__link">Portfolio</a>
                    </li>
                    <li className="header__list">
-                       <a href="" className="header__link">Contacts</a>
+                       <a href="#contact" className="header__link">Contacts</a>
                    </li>
                </ul>
            </div>

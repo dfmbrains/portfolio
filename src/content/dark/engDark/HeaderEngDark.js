@@ -3,23 +3,23 @@ import '../styleDark/headerDark.css'
 
 const HeaderEngDark = () => {
     return (
-        <header className="headerdark">
+        <header id="header" className="headerdark">
            <div className="container">
                <ul className="headerdark__menu">
                    <li className="headerdark__list">
-                       <a href="" className="headerdark__link">Home</a>
+                       <a href="#home" className="headerdark__link">Home</a>
                    </li>
                    <li className="headerdark__list">
-                       <a href="" className="headerdark__link">About me</a>
+                       <a href="#about" className="headerdark__link">About me</a>
                    </li>
                    <li className="headerdark__list">
-                       <a href="" className="headerdark__link">Skills</a>
+                       <a href="#skills" className="headerdark__link">Skills</a>
                    </li>
                    <li className="headerdark__list">
-                       <a href="" className="headerdark__link">Portfolio</a>
+                       <a href="#portfolio" className="headerdark__link">Portfolio</a>
                    </li>
                    <li className="headerdark__list">
-                       <a href="" className="headerdark__link">Contacts</a>
+                       <a href="#contact" className="headerdark__link">Contacts</a>
                    </li>
                </ul>
            </div>

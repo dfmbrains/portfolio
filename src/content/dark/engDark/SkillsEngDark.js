@@ -10,7 +10,7 @@ import CssPhoto from '../../../assets/css.png';
 
 const Skills = () => {
     return (
-        <section className="skillsdark">
+        <section id="skills" className="skillsdark">
             <div className="container">
                 <h2 className="skillsdark__title">Skills</h2>
                 <div className="skillsdark__row">

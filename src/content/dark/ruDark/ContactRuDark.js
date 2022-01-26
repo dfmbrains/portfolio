@@ -13,7 +13,7 @@ const ContactRuDark = () => {
     };
 
     return (
-        <section className="contactdark">
+        <section id="contact" className="contactdark">
             <div className="container">
                 <h1 className="contactdark__title">Контакты</h1>
                 <p className="contactdark__subtitle">Хотите узнать больше?<br/>Пишите!</p>

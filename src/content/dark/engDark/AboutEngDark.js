@@ -3,7 +3,7 @@ import '../styleDark/aboutDark.css';
 
 const AboutEngDark = () => {
     return (
-        <section className="aboutdark">
+        <section id="about" className="aboutdark">
             <div className="container">
                 <h2 className="aboutdark__title">About me</h2>
                 <div className="aboutdark__row">

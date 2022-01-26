@@ -10,7 +10,7 @@ import Romsem from '../assets/romsem.png';
 
 const Portfolio = () => {
     return (
-        <section className="portfolio">
+        <section id="portfolio" className="portfolio">
             <div className="container">
                 <h2 className="portfolio__title">Portfolio</h2>
                 <div className="portfolio__card">

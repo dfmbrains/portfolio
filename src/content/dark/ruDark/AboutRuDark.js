@@ -3,7 +3,7 @@ import '../styleDark/aboutDark.css';
 
 const AboutRuDark = () => {
     return (
-        <section className="aboutdark">
+        <section id="about" className="aboutdark">
             <div className="container">
                 <h2 className="aboutdark__title">Обо мне</h2>
                 <div className="aboutdark__row">

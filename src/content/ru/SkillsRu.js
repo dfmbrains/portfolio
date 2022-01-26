@@ -10,7 +10,7 @@ import CssPhoto from '../../assets/css.png';
 
 const SkillsRu = () => {
     return (
-        <section className="skills">
+        <section id="skills" className="skills">
             <div className="container">
                 <h2 className="skills__title">Навыки</h2>
                 <div className="skills__row">
