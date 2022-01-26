@@ -1,35 +1,19 @@
 .language__btns {
-    border-radius: 5px;
-    width: 140px;
     position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 5px;
-    z-index: 10;
-    padding: 5px 0;
-}
-.mode__btns {
-    border-radius: 5px;
-    justify-content: center;
-    width: 140px;
-    background: #3a3456;
-    position: absolute;
-    top: 0;
-    left: 0;
+    top: 184px;
+    right: 16%;
     display: flex;
     align-items: center;
     column-gap: 5px;
-    z-index: 10;
-    padding: 5px 0;
+    transform: rotate(-90deg);
+	 z-index: 10;
 }
 .btn {
     font-family: Gilroy, sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
+    color: #828282;
     background: transparent;
     border: none;
     outline: none;

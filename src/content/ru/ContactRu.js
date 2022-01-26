@@ -35,7 +35,14 @@ const ContactRu = () => {
                         }
                     </div>
                 </div>
-                <p className="contact__chat">Пишите мне в<br/> Telegram, LinkedIn,  Whatsapp, Facebook</p>
+                <div className="contact__chat">
+                    Пишите мне в
+                    <br/>
+                    <a className="contact__chat" target="_blank" href="https://t.me/dfmbrains"> Telegram</a>,
+                    <a className="contact__chat" target="_blank" href="https://linkedin.com/in/maxabdurasulov"> LinkedIn</a>,
+                    <a className="contact__chat" target="_blank" href="https://wa.me/996700868068"> Whatsapp</a>,
+                    Gmail.
+                </div>
             </div>
         </section>
     );

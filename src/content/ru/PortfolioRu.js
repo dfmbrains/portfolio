@@ -14,31 +14,45 @@ const PortfolioRu = () => {
             <div className="container">
                 <h2 className="portfolio__title">Портфолио</h2>
                 <div className="portfolio__card">
-                    <img className="portfolio__img" src={Travel} alt="TodoList"/>
+                    <a target="_blank" href="https://negeniy228.github.io/Travel/">
+                        <img className="portfolio__img" src={Travel} alt="Travel"/>
+                    </a>
                     <a className="portfolio__link" href="#">Travel - Homepage</a>
                 </div>
                 <div className="portfolio__card">
-                    <img className="portfolio__img" src={Romsem} alt="TodoList"/>
+                    <a href="#">
+                        <img className="portfolio__img" src={Romsem} alt="Romsem"/>
+                    </a>
                     <a className="portfolio__link" href="#">Сайт для ресторана - Homepage</a>
                 </div>
                 <div className="portfolio__card">
-                    <img className="portfolio__img" src={Weather} alt="TodoList"/>
+                    <a target="_blank" href="https://weather-iota-one.vercel.app/">
+                        <img className="portfolio__img" src={Weather} alt="Weather"/>
+                    </a>
                     <a className="portfolio__link" href="#">Прогноз погоды - Homepage</a>
                 </div>
                 <div className="portfolio__card">
-                    <img className="portfolio__img" src={Project3} alt="TodoList"/>
+                    <a href="#">
+                        <img className="portfolio__img" src={Project3} alt="Project3"/>
+                    </a>
                     <a className="portfolio__link" href="#">Макет сайта для компании - Homepage</a>
                 </div>
                 <div className="portfolio__card">
-                    <img className="portfolio__img" src={Indicorp} alt="TodoList"/>
+                    <a href="#">
+                        <img className="portfolio__img" src={Indicorp} alt="Indicorp"/>
+                    </a>
                     <a className="portfolio__link" href="#">Макет сайта для компании - Homepage</a>
                 </div>
                 <div className="portfolio__card">
-                    <img className="portfolio__img" src={Mealdb} alt="TodoList"/>
+                    <a target="_blank" href="http://mealdb-iota.vercel.app">
+                        <img className="portfolio__img" src={Mealdb} alt="Mealdb"/>
+                    </a>
                     <a className="portfolio__link" href="#">Меню для ресторана - Homepage</a>
                 </div>
                 <div className="portfolio__card">
-                    <img className="portfolio__img" src={Todo} alt="TodoList"/>
+                    <a target="_blank" href="http://todo-chi-two.vercel.app">
+                        <img className="portfolio__img" src={Todo} alt="TodoList"/>
+                    </a>
                     <a className="portfolio__link" href="#">Веб приложение для планирования задач - Homepage</a>
                 </div>
             </div>

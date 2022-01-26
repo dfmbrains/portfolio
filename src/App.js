@@ -1,12 +1,12 @@
 import React from 'react';
 import './style.css';
 import './content/style/media.css';
-import TheMain from "./TheMain";
+import SetMode from "./SetMode";
 
 function App() {
   return (
     <div className="App">
-        <TheMain/>
+        <SetMode/>
     </div>
   );
 }
