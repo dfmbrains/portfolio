@@ -26,8 +26,6 @@ const SkillsRuDark = () => {
                         <img className="skillsdark__img react__dark" src={ReactPhoto} alt="React"/>
                         <p className="skillsdark__subtitle">React</p>
                     </div>
-                </div>
-                <div className="skillsdark__row margin__dark">
                     <div className="skillsdark__card">
                         <img className="skillsdark__img" src={HtmlPhoto} alt="HTML"/>
                         <p className="skillsdark__subtitle">HTML</p>

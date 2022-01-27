@@ -26,8 +26,6 @@ const SkillsRu = () => {
                         <img className="skills__img react" src={ReactPhoto} alt="React"/>
                         <p className="skills__subtitle">React</p>
                     </div>
-                </div>
-                <div className="skills__row margin">
                     <div className="skills__card">
                         <img className="skills__img" src={HtmlPhoto} alt="HTML"/>
                         <p className="skills__subtitle">HTML</p>

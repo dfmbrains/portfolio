@@ -1,7 +1,7 @@
 import React from 'react';
-import './style.css';
-import './content/style/media.css';
 import SetMode from "./SetMode";
+import './style.css';
+import './content/style/themain.css';
 
 function App() {
   return (
