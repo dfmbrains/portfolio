@@ -1,7 +1,7 @@
 import React from 'react';
 import './style/portfolio.css'
 import Todo from '../assets/todo.png';
-import Project3 from '../assets/project3.png';
+import Crypto from '../assets/Crypto.png';
 import Travel from '../assets/travel.png';
 import Weather from '../assets/weather.png';
 import Indicorp from '../assets/indicorp.png';
@@ -32,10 +32,10 @@ const Portfolio = () => {
                     <a target="_blank" className="portfolio__link" href="https://weather-iota-one.vercel.app/">Online weather forecast - Homepage</a>
                 </div>
                 <div className="portfolio__card">
-                    <a href="#">
-                        <img className="portfolio__img" src={Project3} alt="Project3"/>
+                    <a target="_blank" href="https://appcrypto.vercel.app/">
+                        <img className="portfolio__img" src={Crypto} alt="Crypto"/>
                     </a>
-                    <a className="portfolio__link" href="#">Web development company - Homepage</a>
+                    <a target="_blank" className="portfolio__link" href="https://appcrypto.vercel.app/">Cryptocurrency - Lymcoin</a>
                 </div>
                 <div className="portfolio__card">
                     <a href="#">

@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styleDark/portfolioDark.css';
 import Todo from '../../../assets/todo.png';
-import Project3 from '../../../assets/project3.png';
 import Travel from '../../../assets/travel.png';
 import Weather from '../../../assets/weather.png';
 import Indicorp from '../../../assets/indicorp.png';
 import Mealdb from '../../../assets/mealdb.png';
 import Romsem from '../../../assets/romsem.png';
+import Crypto from "../../../assets/Crypto.png";
 
 const PortfolioRuDark = () => {
     return (
@@ -32,10 +32,10 @@ const PortfolioRuDark = () => {
                     <a className="portfoliodark__link" href="#">Прогноз погоды - Homepage</a>
                 </div>
                 <div className="portfoliodark__card">
-                    <a href="#">
-                        <img className="portfoliodark__img" src={Project3} alt="Project3"/>
+                    <a target="_blank" href="https://appcrypto.vercel.app/">
+                        <img className="portfoliodark__img" src={Crypto} alt="Crypto"/>
                     </a>
-                    <a className="portfoliodark__link" href="#">Макет сайта для компании - Homepage</a>
+                    <a target="_blank" className="portfoliodark__link" href="https://appcrypto.vercel.app/">Криптовалюта - Lymcoin</a>
                 </div>
                 <div className="portfoliodark__card">
                     <a href="#">
