@@ -3,7 +3,7 @@ import '../styleDark/portfolioDark.css';
 import Todo from '../../../assets/todo.png';
 import Travel from '../../../assets/travel.png';
 import Weather from '../../../assets/weather.png';
-import Indicorp from '../../../assets/indicorp.png';
+import Orion from '../../../assets/orion.png';
 import Mealdb from '../../../assets/mealdb.png';
 import Romsem from '../../../assets/romsem.png';
 import Crypto from "../../../assets/Crypto.png";
@@ -38,10 +38,10 @@ const PortfolioRuDark = () => {
                     <a target="_blank" className="portfoliodark__link" href="https://appcrypto.vercel.app/">Криптовалюта - Lymcoin</a>
                 </div>
                 <div className="portfoliodark__card">
-                    <a href="#">
-                        <img className="portfoliodark__img" src={Indicorp} alt="Indicorp"/>
+                    <a target="_blank" href="https://orion-ebon.vercel.app/">
+                        <img className="portfoliodark__img" src={Orion} alt="Orion Trans"/>
                     </a>
-                    <a className="portfoliodark__link" href="#">Макет сайта для компании - Homepage</a>
+                    <a target="_blank" className="portfoliodark__link" href="https://orion-ebon.vercel.app/">Сайт для логистической компании - Орион Транс</a>
                 </div>
                 <div className="portfoliodark__card">
                     <a target="_blank" href="http://mealdb-iota.vercel.app">

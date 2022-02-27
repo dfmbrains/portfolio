@@ -3,10 +3,10 @@ import '../styleDark/portfolioDark.css';
 import Todo from '../../../assets/todo.png';
 import Travel from '../../../assets/travel.png';
 import Weather from '../../../assets/weather.png';
-import Indicorp from '../../../assets/indicorp.png';
 import Mealdb from '../../../assets/mealdb.png';
 import Romsem from '../../../assets/romsem.png';
 import Crypto from "../../../assets/Crypto.png";
+import Orion from "../../../assets/orion.png";
 
 const Portfolio = () => {
     return (
@@ -37,11 +37,11 @@ const Portfolio = () => {
                     </a>
                     <a target="_blank" className="portfoliodark__link" href="https://appcrypto.vercel.app/">Cryptocurrency - Lymcoin</a>
                 </div>
-                <div className="portfoliodark__card">
-                    <a href="#">
-                        <img className="portfoliodark__img" src={Indicorp} alt="Indicorp"/>
+                <div className="portfolioDark__card">
+                    <a target="_blank" href="https://orion-ebon.vercel.app/">
+                        <img className="portfoliodark__img" src={Orion} alt="OrionTrans"/>
                     </a>
-                    <a className="portfoliodark__link" href="#">Online business company - Homepage</a>
+                    <a target="_blank" className="portfoliodark__link" href="https://orion-ebon.vercel.app/">Logistic company - Orion Trans</a>
                 </div>
                 <div className="portfoliodark__card">
                     <a target="_blank" href="http://mealdb-iota.vercel.app">

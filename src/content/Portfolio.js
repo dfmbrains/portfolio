@@ -4,7 +4,7 @@ import Todo from '../assets/todo.png';
 import Crypto from '../assets/Crypto.png';
 import Travel from '../assets/travel.png';
 import Weather from '../assets/weather.png';
-import Indicorp from '../assets/indicorp.png';
+import Orion from '../assets/orion.png';
 import Mealdb from '../assets/mealdb.png';
 import Romsem from '../assets/romsem.png';
 
@@ -38,10 +38,10 @@ const Portfolio = () => {
                     <a target="_blank" className="portfolio__link" href="https://appcrypto.vercel.app/">Cryptocurrency - Lymcoin</a>
                 </div>
                 <div className="portfolio__card">
-                    <a href="#">
-                        <img className="portfolio__img" src={Indicorp} alt="Indicorp"/>
+                    <a target="_blank" href="https://orion-ebon.vercel.app/">
+                        <img className="portfolio__img" src={Orion} alt="OrionTrans"/>
                     </a>
-                    <a className="portfolio__link" href="#">Online business company - Homepage</a>
+                    <a target="_blank" className="portfolio__link" href="https://orion-ebon.vercel.app/">Logistic company - Orion Trans</a>
                 </div>
                 <div className="portfolio__card">
                     <a target="_blank" href="http://mealdb-iota.vercel.app">
