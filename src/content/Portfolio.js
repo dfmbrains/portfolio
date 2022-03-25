@@ -6,7 +6,7 @@ import Travel from '../assets/travel.png';
 import Weather from '../assets/weather.png';
 import Orion from '../assets/orion.png';
 import Mealdb from '../assets/mealdb.png';
-import Romsem from '../assets/romsem.png';
+import Education from '../assets/education.png';
 
 const Portfolio = () => {
     return (
@@ -20,10 +20,10 @@ const Portfolio = () => {
                     <a target="_blank" className="portfolio__link" href="https://negeniy228.github.io/Travel/">Travel - Homepage</a>
                 </div>
                 <div className="portfolio__card">
-                    <a href="#">
-                        <img className="portfolio__img" src={Romsem} alt="Romsem"/>
+                    <a target="_blank" href="https://education-js.herokuapp.com">
+                        <img className="portfolio__img" src={Education} alt="Education"/>
                     </a>
-                    <a className="portfolio__link" href="#">Online sushi / pizza restaurant - Homepage</a>
+                    <a target="_blank" className="portfolio__link" href="https://education-js.herokuapp.com">Online Frontend courses - Platform</a>
                 </div>
                 <div className="portfolio__card">
                     <a target="_blank" href="https://weather-iota-one.vercel.app/">

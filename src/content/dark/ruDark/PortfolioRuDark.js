@@ -5,8 +5,8 @@ import Travel from '../../../assets/travel.png';
 import Weather from '../../../assets/weather.png';
 import Orion from '../../../assets/orion.png';
 import Mealdb from '../../../assets/mealdb.png';
-import Romsem from '../../../assets/romsem.png';
 import Crypto from "../../../assets/Crypto.png";
+import Education from '../../../assets/education.png';
 
 const PortfolioRuDark = () => {
     return (
@@ -20,10 +20,11 @@ const PortfolioRuDark = () => {
                     <a className="portfoliodark__link" href="#">Travel - Homepage</a>
                 </div>
                 <div className="portfoliodark__card">
-                    <a href="#">
-                        <img className="portfoliodark__img" src={Romsem} alt="Romsem"/>
+                    <a target="_blank" href="https://education-js.herokuapp.com">
+                        <img className="portfoliodark__img" src={Education} alt="Education"/>
                     </a>
-                    <a className="portfoliodark__link" href="#">Сайт для ресторана - Homepage</a>
+                    <a className="portfoliodark__link" target="_blank" href="https://education-js.herokuapp.com">Платформа
+                        для онлайн обучения</a>
                 </div>
                 <div className="portfoliodark__card">
                     <a target="_blank" href="https://weather-iota-one.vercel.app/">
@@ -35,13 +36,15 @@ const PortfolioRuDark = () => {
                     <a target="_blank" href="https://appcrypto.vercel.app/">
                         <img className="portfoliodark__img" src={Crypto} alt="Crypto"/>
                     </a>
-                    <a target="_blank" className="portfoliodark__link" href="https://appcrypto.vercel.app/">Криптовалюта - Lymcoin</a>
+                    <a target="_blank" className="portfoliodark__link" href="https://appcrypto.vercel.app/">Криптовалюта
+                        - Lymcoin</a>
                 </div>
                 <div className="portfoliodark__card">
                     <a target="_blank" href="https://orion-ebon.vercel.app/">
                         <img className="portfoliodark__img" src={Orion} alt="Orion Trans"/>
                     </a>
-                    <a target="_blank" className="portfoliodark__link" href="https://orion-ebon.vercel.app/">Сайт для логистической компании - Орион Транс</a>
+                    <a target="_blank" className="portfoliodark__link" href="https://orion-ebon.vercel.app/">Сайт для
+                        логистической компании - Орион Транс</a>
                 </div>
                 <div className="portfoliodark__card">
                     <a target="_blank" href="http://mealdb-iota.vercel.app">
